@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styls.css/htmlstyle.css">
+  <title>Document</title>
+
+</head>
+
+<body>
+  <!--BARRA DE NAVEGACION CON BOTON-->
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid bg-secondary">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./imglogo/logoruiz.jpg" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+      </a>
+
+
+      <!--boton-->
+      <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">RUIZ INDUSTRIES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav">
+              <li class="nav-item">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./cotizar.html">Cotización</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </nav>
+  <!--CARRUSEL-->
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imgcarrusel/serv1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imgcarrusel/servplomeria.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imgcarrusel/servpoda.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imgcarrusel/servelectrico.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imgcarrusel/servpintura.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./imgcarrusel/servcarpinteria.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--QUIENES SOMOS-->
+  <div class="container mt-5">
+    <div class="cardQ mb-3 border-0">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <img somos src="./imagenestarjetas/quienessomos1.png" class="img-fluid rounded-starts p-2" alt="...">
+        </div>
+        <div class="col-md-7">
+          <div class="card-body">
+            <h2 class="card-title">¿QUIENES SOMOS?</h2>
+            <p class="card-text">Somos un negocio familiar que busca brindarte un servicio de calidad para el
+              mantenimiento y reparación de todo espacio que tú requieras.
+              <br> Tu hogar, oficina, escuela, taller o negocio por que sabemos que estos espacios se convierten en un
+              segundo hogar ya que pasamos la mayor parte del tiempo en él, así que ya no sufras por esa puerta que no
+              cierra y no te brinda privacidad, ese baño que inunda tu piso y ensucia tus zapatos, esa gotera que no te
+              deja concentrar o ese interruptor que hace corto, sabemos que estos y muchos problemas más se te presentan
+              día con día.
+              <br>¿No sabes a quien llamar?
+              <br>No te preocupes somos tu mejor opción ya que nosotros realizamos mantenimiento y reparación a
+              infraestructura de edificios, hogar, escuela y comercios en general.
+              <br>Nuestro trabajo es de calidad y está garantizado.
+            </p>
+            <!--es otra manera de hacer botones <button></button>-->
+            <div class="text-center"><a href="contacto.html" class="btn btn-primary">Contáctanos</a></div>
+            <!--para centrar el boton se debe meter dentro de un <div class="text-center"><a........y cierral al final </a></div>-->
+            <!--boton sin centrar <a href="#" class="btn btn-success btn-lg">CERTIFICATE</a>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--ejemplo de tarjetas verticales con boton-->
+  <h1> NUESTROS SERVICIOS</h1>
+  <div class="container-card">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card border-0 text-center ">
+          <img src="./imagenestarjetas/plomeria.png" class="card-img-top mt-2 p-5 rounded-circle" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Plomería</h5>
+            <p class="card-text">Instalaciones de tuberias de CPVC, tubo plus, cobre, galvanizado, entre otros.</p>
+            <p class="card-text">Instalación de tinacos, bombas (centrifugas, para bombeo de agua y sanitarias).</p>
+            <p class="card-text">Reparación y Mantenimiento.</p>
+            <a href="./cotizar.html" class="btn btn-primary mt-5">Cotizar servicio</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card border-0 text-center">
+          <img src="./imagenestarjetas/poda.png" class="card-img-top mt-2 p-5 rounded-circle" alt="...">
+          <div class="card-body">
+            <p class="card-text">Limpieza y poda de áreas comúnes</p>
+            <p class="card-text">Manteniento a jardineras</p>
+            <a href="./cotizar.html" class="btn btn-primary mt-5">Cotizar Servicio</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 text-center">
+          <img src="./imagenestarjetas/electrico.png" class="card-img-top mt-2 p-5 rounded-circle" alt="...">
+          <div class="card-body">
+            <p class="card-text">Instalaciones de contactos, apagadores e iluminución en general</p>
+            <p class="card-text">Colocación de tuberias conduit</p>
+            <p class="card-text">Calculo de conductores, interruptores y centros de carga</p>
+            <p class="card-text"> Mantenimiento, instalación y reparación en general</p>
+            <a href="./cotizar.html" class="btn btn-primary mt-5">Cotizar Servicio</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 text-center">
+          <img src="./imagenestarjetas/carpinteria.png" class="card-img-top mt-2 p-5 rounded-circle" alt="...">
+          <div class="card-body">
+            <p class="card-text">Instalación, fabricación y reparación de todo tipo de mueble y ababados en general</p>
+            <a href="./cotizar.html" class="btn btn-primary mt-5">Cotizar Servicio</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card border-0 text-center">
+          <img src="./imagenestarjetas/siempredispuestosaayudar.png" class="card-img-top mt-2 p-5 rounded-circle"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Otros servicios</h5>
+            <p class="card-text">Si tienes duda de algun servicio que requieras y no se encuentra en este espacio, no te
+              preocupes</p>
+            <p class="card-text">¡ CONTACTANOS !</p>
+            <p class="card-text">Te brindaremos una solución a tus necesidades</p>
+            <a href="./cotizar.html" class="btn btn-primary mt-5">Cotizar Servicio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--footer-->
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6"><a href="./contacto.html" class="text-decoration-none">CONTACTO</a></div>
+        <!--ICONOS-->
+        <div class="col-md-6"><a href="./cotizar.html" class="text-decoration-none">COTIZACION</a></div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

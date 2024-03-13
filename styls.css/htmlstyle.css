@@ -1,0 +1,53 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+   
+}
+
+body{
+    background-color: rgb(123, 160, 229);
+}
+
+.slide{
+    margin-top: 10px;
+}
+
+.slide img{
+    padding:10px;
+
+}
+
+.containercard{
+    margin-bottom: 20px;
+    max-height: 90vh;
+max-width: 110vh;
+}
+
+.card{
+  background-color: aqua;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(92, 91, 91);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+footer{
+    background-color: rgb(36, 36, 117);
+    text-align: center;
+    padding: 20px;
+   
+}
+
+
+
+
