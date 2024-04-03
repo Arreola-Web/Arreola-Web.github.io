@@ -13,38 +13,38 @@
 <body>
   <header>
     <!--BARRA DE NAVEGACION CON BOTON-->
-  <nav class="navbar bg-body-tertiary">
-    <div class="container-fluid bg-secondary">
-      <a class="navbar-brand" href="./index.html">
-        <img src="./imglogo/logoruiz.jpg" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
-      </a>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid bg-secondary">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./imglogo/logoruiz.jpg" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+        </a>
 
 
-      <!--boton-->
-      <nav class="navbar navbar-expand-lg bg-warning">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">RUIZ INDUSTRIES</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+        <!--boton-->
+        <nav class="navbar navbar-expand-lg bg-warning">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">RUIZ INDUSTRIES</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
 
-            <ul class="navbar-nav">
-              <li class="nav-item">
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-              </li>
-            </ul>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-    </div>
-  </nav>
+        </nav>
+      </div>
+    </nav>
   </header>
 
   <!--formulario-->
@@ -56,70 +56,65 @@
       <!--formulario 3-->
       <form method="" action="">
         <label for="texto">Nombre</label>
-        <input id="texto" placeholder="texto" required
-          autofocus /><!--required campo requerido-->
+        <input id="texto" placeholder="texto" required autofocus /><!--required campo requerido-->
         <!--placeholder es para colocar texto que al escribir se quita-->
         <br>
         <!--se tiene que enlazar el id de input label for "text" para que al seleccionar donde dice nomre lo dirija al recuado de escritura-->
         <!--correo-->
-    <label for="Email">Correo electronico</label>
-            <input id="Email" placeholder="example@example.com" required="example@example.com" />
-            <br>
-            <label for="numero">Numero telefonico</label>
-            <input id="numero" placeholder="telefono" required="number" />
-        </fieldset>
-       
-      </form>
-    <div id="col-12 lg-12">
-    <div id="contelogin">
-      <form id="formLogin">
-        
-        <label for="select">Lugar donde requiere el servicio</label>
-        <select>
-          <option value="Citara">Citara</option>
-          <option value="El Dorado">El Dorado</option>
-          <option value="Huehuetoca">Huehuetoca</option>
-        </select>
-    
+        <label for="Email">Correo electronico</label>
+        <input id="Email" placeholder="example@example.com" required="example@example.com" />
         <br>
-        <form>
-          <label for="select">Domicilio completo</label>
-          <br>
-          
-          <textarea id="caja" cols="50" rows="rows-20" placeholder="Agrega tu domicio completo"></textarea>
-        </form>
-        </div>
-        <label for="select">¿Que necesita?</label>
-        <select>
-          <option value="Cotizacion">Cotizacion</option>
-          <option value="PLOMERIA">Visita tecnica ($100)</option>
-        </select>
-        <br>
-        <label for="select">TIPO DE SERVICIO</label>
-        <select> <!--<select multiple> deja seleccionar varios elementos dejando presianada la tecla control-->
-          <option value="ELECTRICO">ELECTRICO</option>
-          <option value="PLOMERIA">PLOMERIA</option>
-          <option value="PODA">PODA</option>
-          <option value="PINTURA">PINTURA</option>
-          <option value="CARPINTERIA">CARPINTERIA</option>
-          <option value="MANTENIMIENTO EN GENERAL">MANTENIMIENTO EN GENERAL</option>
-          <option value="INSTALACION">INSTALACION</option>
-          <option value="OTRO">OTRO</option>
-        </select>
-        <br>
-        <form>
-          <label for="text">Descricion del servicio que requieres:</label>
-          <br>
-          <textarea id="caja" cols="50" rows="20" placeholder="Agrega aqui tu descripción"></textarea>
-        </form>
+        <label for="numero">Numero telefonico</label>
+        <input id="numero" placeholder="telefono" required="number" />
+    </fieldset>
 
-        <form>
-          <label for="text">Agrega una imagen:</label>
+    </form>
+    <div id="col-12 lg-12">
+      <div id="contelogin">
+        <form id="formLogin">
+          <label for="select">Lugar donde requiere el servicio</label>
+          <select>
+            <option value="Citara">Citara</option>
+            <option value="El Dorado">El Dorado</option>
+            <option value="Huehuetoca">Huehuetoca</option>
+          </select>
           <br>
-          <textarea id="caja" cols="50" rows="20" placeholder="Opcional" required="img jpg"></textarea>
-        </form>
-        <button type="submit">ENVIAR</button>
-            
+          <form>
+            <label for="select">Domicilio completo</label>
+            <br>
+            <textarea id="caja" cols="50" rows="rows-20" placeholder="Agrega tu domicio completo"></textarea>
+          </form>
+      </div>
+      <label for="select">¿Que necesita?</label>
+      <select>
+        <option value="Cotizacion">Cotizacion</option>
+        <option value="PLOMERIA">Visita tecnica ($100)</option>
+      </select>
+      <br>
+      <label for="select">TIPO DE SERVICIO</label>
+      <select> <!--<select multiple> deja seleccionar varios elementos dejando presianada la tecla control-->
+        <option value="ELECTRICO">ELECTRICO</option>
+        <option value="PLOMERIA">PLOMERIA</option>
+        <option value="PODA">PODA</option>
+        <option value="PINTURA">PINTURA</option>
+        <option value="CARPINTERIA">CARPINTERIA</option>
+        <option value="MANTENIMIENTO EN GENERAL">MANTENIMIENTO EN GENERAL</option>
+        <option value="INSTALACION">INSTALACION</option>
+        <option value="OTRO">OTRO</option>
+      </select>
+      <br>
+      <form>
+        <label for="text">Descricion del servicio que requieres:</label>
+        <br>
+        <textarea id="caja" cols="50" rows="20" placeholder="Agrega aqui tu descripción"></textarea>
+      </form>
+
+      <form>
+        <label for="text">Agrega una imagen:</label>
+        <br>
+        <textarea id="caja" cols="50" rows="20" placeholder="Opcional" required="img jpg"></textarea>
+      </form>
+      <button type="submit">ENVIAR</button>
     </div>
   </body>
 

@@ -13,3 +13,14 @@ footer{
     padding: 20px;
    
 }
+
+#ubicacion {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px;;
+    }
+
+    
